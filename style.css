@@ -1,0 +1,66 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar{
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    font-size: 1.5rem;
+    color: black;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.main{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top:200px;
+    left: 150px;
+    text-align: center;
+}
+.button{
+    background-color: navajowhite;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer{
+    display: inline-flex;
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+}
+.footer a img{
+    height: 40%;
+    width: 7%;
+    padding: 10px;
+}
+.footer h3{
+    position: relative;
+    bottom: 9px;
+}
+.nav-bar a:hover{
+    background-color: teal;
+    border: 2px solid teal;
+    border-radius: 8px;
+}
